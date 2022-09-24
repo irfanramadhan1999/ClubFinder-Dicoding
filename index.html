@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Club Finder</title>
+  <link rel="stylesheet" href="src/styles/style.css">
+</head>
+
+<body>
+  <header>
+    <app-bar>
+      <h2>Club Finder</h2>
+    </app-bar>
+  </header>
+  <main>
+    <!-- Yeay, pembuatan custom element sudah selesai. Sekarang saatnya kita menggunakannya! Pertama ubahlah struktur html yang membentuk komponen pencarian dengan menggunakan tag <search-bar> : -->
+    <!-- <div id="search-container" class="search-container">
+      <input placeholder="Search football club" id="searchElement" type="search">
+      <button id="searchButtonElement" type="submit">Search</button>
+    </div> -->
+
+    <!-- Menjadi seperti ini : -->
+    <search-bar></search-bar>
+
+    <div id="clubList"></div>
+  </main>
+
+  <script src="./src/component/app-bar.js"></script>
+  <script src="./src/component/search-bar.js"></script>
+  <script src="app.js" type="module"></script>
+  <script type="text/javascript"></script>
+
+</body>
+
+</html>
